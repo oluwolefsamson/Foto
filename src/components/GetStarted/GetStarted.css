@@ -1,0 +1,42 @@
+.g-container {
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .g-container img {
+    height: 80vh;
+    
+    
+}
+
+.g-container .g-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+.g-container span:nth-child(1) {
+    font-size: 90px;
+}
+
+.g-container span:nth-child(2) {
+    font-size: 20px;
+}
+
+.g-container span:nth-child(3) {
+    background-color: rgb(192, 121, 6);
+    color: black;
+    font-weight: 600;
+    width: 200px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}

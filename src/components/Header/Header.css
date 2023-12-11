@@ -1,0 +1,41 @@
+.h-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.h-container img {
+    height: 10vh;
+
+}
+
+.white-gradient {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    background: rgba(255,255, 255, 0.522);
+    filter: blur(100px); 
+} 
+
+.h-container ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.h-container li a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

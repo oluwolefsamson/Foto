@@ -1,0 +1,49 @@
+.hero-container {
+   display: flex;
+   margin-top: 5rem;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.hero-container .hero-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    gap: 1rem;
+}
+.hero-container span:nth-child(1) {
+    font-size: 100px;
+}
+
+.hero-container span:nth-child(2) {
+    font-size: 20px;
+}
+
+.hero-container span:nth-child(3) {
+    background-color: rgb(192, 121, 6);
+    color: black;
+    font-weight: 600;
+    width: 200px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.white-gradient2 {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    background: linear-gradient(to right, white, blue); /* Change the gradient direction as needed */
+    filter: blur(130px); 
+    margin-top: 5rem;
+    margin-left: 55rem;
+}
+
+.hero-container img {
+    height: 70vh;
+    
+}
