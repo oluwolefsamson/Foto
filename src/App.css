@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(7, 7, 39);
+    background: rgb(7, 7, 39);
     color: #fff;
 }
 body {

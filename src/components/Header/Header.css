@@ -21,7 +21,7 @@
     filter: blur(100px); 
 } 
 
-.h-container ul {
+.h-container .nav {
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -38,4 +38,37 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+.menu-icon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 428px) {
+    .menu-icon{
+        display: block;
+
+    }
+    .nav {
+        position: fixed;
+        top: 3rem;
+        right: 4rem;
+        background: #fff;
+        flex-direction: column;
+        font-weight: 500;
+        gap: 2rem;
+        padding: 3rem;
+        border-radius: 10px;
+        align-items: center;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        transition: all 300ms ease-in;
+    }
 }

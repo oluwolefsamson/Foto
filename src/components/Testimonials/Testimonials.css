@@ -16,5 +16,56 @@
     display: flex;
     justify-content: center;
     font-weight: 500;
+    
 }
 
+.t-container .t-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.t-card .white-gradient3 {
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    background: linear-gradient(to right, rgb(203, 165, 165), rgb(195, 255, 0)); /* Change the gradient direction as needed */
+    filter: blur(130px); 
+    margin-left: -65rem;
+   
+}
+
+.t-container .card-data {
+    width: 20rem;
+    max-width: 25rem;
+    box-shadow: 2px 2px 4px 2px rgba(219, 198, 198, 0.2);
+    padding: 5px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+} 
+
+.card-data img {
+    height: 15vh;
+    position: absolute;
+    margin-top: -3rem;
+    border-radius: 40px;
+    margin-left: 7rem; 
+}
+
+.card-data span:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: rgb(192, 121, 6);
+}
+
+.card-data span:nth-child(3) {
+    display: flex;
+    text-align: center;
+    font-weight: 200;
+    font-size: small;
+    padding: 1rem;
+}
