@@ -9,10 +9,10 @@ function App() {
   return (
     <div>
      < Header />  
-     < Hero />
-     {/* < GetStarted />  
-     < Testimonials />
-     < Footer /> */}
+     < Hero /> 
+     < GetStarted />  
+     {/* < Testimonials />
+     < Footer />  */}
     </div>
   );
 }

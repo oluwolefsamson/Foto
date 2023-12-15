@@ -40,7 +40,7 @@ import { useState } from 'react';
              </div>
              </OutsideClickHandler>
              <div className="menu-icon" onClick={ () => setMenuOpened ((prev)=>!prev)}>
-              <BiMenuAltRight size={35} color='black'/>
+              <BiMenuAltRight size={35} color='black' className='menu-right'/>
               </div>
 
              

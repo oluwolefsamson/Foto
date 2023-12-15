@@ -40,3 +40,61 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 768px) {
+    .g-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .g-container img {
+        height: 30vh; 
+    }
+
+    .g-container .g-text {
+        width: 100%;
+        gap: 1rem;
+    }
+    .g-container span:nth-child(1) {
+        font-size: 40px;
+    }
+    
+    .g-container span:nth-child(2) {
+        font-size: 10px;
+    }
+    
+    .g-container span:nth-child(3) {
+        background-color: rgb(192, 121, 6);
+        color: black;
+        font-weight: 600;
+        font-size: small;
+        width: 150px;
+        height: 5vh;
+       
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .g-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .g-container .g-text {
+        width: 50%;
+        gap: 1rem;
+    }
+
+    .g-container img {
+        height: 50vh; 
+    }
+
+}
+
