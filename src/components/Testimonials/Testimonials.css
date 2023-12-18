@@ -78,6 +78,11 @@
     .t-container {
         display: flex;
         justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .t-container .card-data {
+        margin-top: 2rem;
     }
 
     .t-text span:nth-child(1) {
