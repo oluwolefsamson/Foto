@@ -45,11 +45,6 @@
    
 }
 
-.right-side a:hover {
-    border-bottom: 3px solid rgb(114, 74, 114);
-    color: rgb(114, 74, 114);
-}
-
 .menu-icon {
     display: none;
 }
