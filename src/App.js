@@ -11,8 +11,8 @@ function App() {
      < Header />  
      < Hero /> 
      < GetStarted />   
-     < Testimonials />
-     {/* < Footer />  */}
+     < Testimonials /> 
+     < Footer /> 
     </div>
   );
 }
