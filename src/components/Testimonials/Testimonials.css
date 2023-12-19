@@ -107,7 +107,7 @@
 
 @media (max-width: 390px) {
     .card-data img {
-      height: 10vh;
+        margin-left: 6.8rem;
       
     }
 } 
